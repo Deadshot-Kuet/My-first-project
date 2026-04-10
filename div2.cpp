@@ -17,7 +17,7 @@ bool check(int n,int m){
         return 
         check(n/3,m) || check(2*n/3,m);
     }
-    else return false;
+    else return false;//dhuru
 }
 void solve(){
        int n,m;
